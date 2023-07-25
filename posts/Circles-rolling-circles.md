@@ -1,7 +1,7 @@
 ---
 title: "圆围绕圆滚动"
 date: 2023-07-25T11:16:59+08:00
-draft: true
+draft: false
 tags: ["数学"]
 description: 圆滚圆问题的解释以及思考
 katex: true
