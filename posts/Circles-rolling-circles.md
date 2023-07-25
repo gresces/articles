@@ -33,7 +33,7 @@ $8\pi r \div 2\pi r = 4$，
 
 上面的每一种解释都把圆的运动描述为旋转和公转的分解，但实际上并没有发生这样的分解。就像人的心脏和肺同时工作一样，公转和自转也是一起发生的。将旋转与旋转分开有助于理解，但这样做并不能提供根本的解决方案。有人说，我们大脑的组成不允许多任务处理，但学会同时理解这些现象将是非常有价值的。
 
-类似的问题也出现在 *[Aha! Gotcha: Paradoxes to Puzzle and Delight](http://www.amazon.co.uk/Aha-Gotcha-Paradoxes-Puzzle-Delight/dp/0716713616)* by Martin Gardner。如果你能想到一个替代的证明或解释这个问题，请发表评论或给我们*[发电子邮件](mailto: plus@maths.cam.ac.uk)*！
+类似的问题也出现在 *[Aha! Gotcha: Paradoxes to Puzzle and Delight](http://www.amazon.co.uk/Aha-Gotcha-Paradoxes-Puzzle-Delight/dp/0716713616)* by Martin Gardner。如果你能想到一个替代的证明或解释这个问题，请发表评论或给我们*发电子邮件 plus@maths.cam.ac.uk*！
 
 ***
 
