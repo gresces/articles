@@ -1,5 +1,5 @@
 ---
-title: "Table in Markdown and HTML"
+title: "HTML的表格样式"
 date: 2023-07-27T17:01:04+08:00
 draft: false
 tags: ["计算机"]
