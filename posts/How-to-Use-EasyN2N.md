@@ -18,7 +18,7 @@ summary: EasyN2N Cilent and Server
 参照官网[^1]进行配置：
 
 ``` bash
-gresces@lscpcf9xLh:~/TEMP$ wget https://github.com/ntop/n2n/archive/refs/tags/3.0.tar.gz
+~/TEMP$ wget https://github.com/ntop/n2n/archive/refs/tags/3.0.tar.gz
 --2023-10-15 14:57:18--  https://github.com/ntop/n2n/archive/refs/tags/3.0.tar.gz
 Resolving github.com (github.com)... 20.205.243.166
 Connecting to github.com (github.com)|20.205.243.166|:443... connected.
@@ -41,7 +41,7 @@ Saving to: ‘3.0.tar.gz’
 运行解压指令 `tar xzvf 3.0.tar.gz`，之后进入目录`n2n-3.0`中
 
 ``` bash
-gresces@lscpcf9xLh:~/TEMP/n2n-3.0$ ls
+~/TEMP/n2n-3.0$ ls
 autogen.sh      config.guess      doc      legacy       packages   supernode.1     win32
 CHANGELOG.md    configure.seed    edge.8   LICENSE      README.md  tests           wireshark
 CMakeLists.txt  contributors.txt  include  Makefile.in  scripts    tools
@@ -57,7 +57,7 @@ make
 ```
 
 ``` bash
-gresces@lscpcf9xLh:~/TEMP/n2n-3.0$ cat Makefile | grep SBINDIR
+~/TEMP/n2n-3.0$ cat Makefile | grep SBINDIR
 export SBINDIR
 SBINDIR=$(PREFIX)/local/sbin
 SBINDIR=$(PREFIX)/sbin
@@ -74,7 +74,7 @@ SBINDIR=$(PREFIX)/sbin
 安装完成后检查是否正确安装
 
 ``` bash
-gresces@lscpcf9xLh:/usr/sbin$ ls /usr/sbin/ | grep "supernode\|edge"
+/usr/sbin$ ls /usr/sbin/ | grep "supernode\|edge"
 edge
 supernode
 ```
@@ -99,9 +99,9 @@ nohup supernode -p 9527 -v -f -a 172.16.0.0-172.16.1.0/24 > ./run.txt 2>&1 &
 运行指令
 
 ``` bash
-gresces@lscpcf9xLh:~/n2n$ sudo ./run.sh
+~/n2n$ sudo ./run.sh
 
-gresces@lscpcf9xLh:~/n2n$ cat run.txt
+~/n2n$ cat run.txt
 15/Oct/2023 15:30:08 [supernode.c:268] the network range for community ip address service is '172.16.0.0...172.16.1.0/24'
 15/Oct/2023 15:30:08 [supernode.c:588] WARNING: using default federation name; FOR TESTING ONLY, usage of a custom federation name (-F) is highly recommended!
 15/Oct/2023 15:30:08 [sn_utils.c:120] started shared secrets calculation for edge authentication
@@ -118,7 +118,7 @@ gresces@lscpcf9xLh:~/n2n$ cat run.txt
 检查运行情况，记得放通端口
 
 ``` bash
-gresces@lscpcf9xLh:~/n2n$ ps -ef | grep 9527
+~/n2n$ ps -ef | grep 9527
 nobody   15193     1  0 15:30 pts/0    00:00:00 supernode -p 9527 -v -f -a 172.16.0.0-172.16.1.0/24
 gresces  15250 12024  0 15:30 pts/0    00:00:00 grep 9527
 ```
