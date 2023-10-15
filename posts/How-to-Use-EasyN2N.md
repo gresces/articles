@@ -9,7 +9,7 @@ toc: false
 summary: EasyN2N Cilent and Server
 ---
 
-# How to Use EasyN2N (Configure in Linux Server And Windows Cilent)
+# How to Use EasyN2N 
 
 ## Linux Server
 
