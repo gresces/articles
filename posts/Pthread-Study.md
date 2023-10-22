@@ -1,7 +1,7 @@
 ---
 title: "Pthread 笔记"
 date: 2023-10-19T19:48:47+08:00
-draft: true
+draft: false
 tags: ["计算机"]
 description: 使用Pthread编程，以pi的计算为例
 katex: false
