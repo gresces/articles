@@ -1,5 +1,5 @@
 ---
-title: "Pthread Study"
+title: "Pthread 笔记"
 date: 2023-10-19T19:48:47+08:00
 draft: true
 tags: ["计算机"]
