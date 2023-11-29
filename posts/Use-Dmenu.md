@@ -82,7 +82,7 @@ $ ... | dmenu -m 0
 $ ... | dmenu -p "Prompt"
 ```
 
-# More...
+## More...
 
 ### 补丁
 
